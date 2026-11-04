@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="50%" stop-color="#0D131F"/>
+      <stop offset="100%" stop-color="#090E17"/>
+    </linearGradient>
+
+    <!-- Electric Blue Glow -->
+    <radialGradient id="blue-glow" cx="15%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Warm Amber Glow -->
+    <radialGradient id="amber-glow" cx="85%" cy="70%" r="55%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Isometric Surface Gradient -->
+    <linearGradient id="iso-top" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="iso-left" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1E3A8A" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="iso-right" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D97706" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#78350F" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: "JetBrains Mono", "Fira Code", SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="360" fill="url(#bg-gradient)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <rect width="1200" height="360" fill="url(#blue-glow)"/>
+  <rect width="1200" height="360" fill="url(#amber-glow)"/>
+
+  <!-- Border Frame -->
+  <rect x="1" y="1" width="1198" height="358" rx="12" fill="none" stroke="#1E293B" stroke-width="1.5" stroke-opacity="0.8"/>
+
+  <!-- Left Content Area -->
+  <g transform="translate(64, 48)">
+    <!-- Status Pill -->
+    <g transform="translate(0, 0)">
+      <rect width="320" height="28" rx="14" fill="#111827" stroke="#1F2937" stroke-width="1"/>
+      <circle cx="16" cy="14" r="4.5" fill="#10B981"/>
+      <circle cx="16" cy="14" r="8" fill="#10B981" fill-opacity="0.25"/>
+      <text x="32" y="18" fill="#E2E8F0" font-size="11" font-weight="600" letter-spacing="1.2" class="font-mono">CREATIVE BUILDER • SYSTEMS CRAFT</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="80" fill="#F8FAFC" font-size="44" font-weight="800" letter-spacing="-1.2" class="font-sans">
+      Sanjayakumar Hombaradi
+    </text>
+
+    <!-- Brand Moniker & Focus -->
+    <g transform="translate(0, 114)">
+      <text x="0" y="0" fill="#3B82F6" font-size="20" font-weight="700" letter-spacing="-0.4" class="font-mono">
+        UNSTOCKS
+      </text>
+      <text x="110" y="-1" fill="#64748B" font-size="18" font-weight="400" class="font-sans">/</text>
+      <text x="126" y="0" fill="#94A3B8" font-size="17" font-weight="500" class="font-sans">
+        Founder &amp; Principal Systems Architect
+      </text>
+    </g>
+
+    <!-- Mission Statement -->
+    <text x="0" y="156" fill="#CBD5E1" font-size="15" font-weight="400" line-height="24" class="font-sans">
+      Deconstructing ideas into Lindy-durable software, decoupled distributed architectures,
+    </text>
+    <text x="0" y="180" fill="#CBD5E1" font-size="15" font-weight="400" class="font-sans">
+      and high-craft production systems with verified type-safety and deep test suites.
+    </text>
+
+    <!-- Metric Badges Row -->
+    <g transform="translate(0, 222)">
+      <!-- Metric 1: Flagship -->
+      <g transform="translate(0, 0)">
+        <rect width="180" height="34" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+        <text x="14" y="21" fill="#60A5FA" font-size="12" font-weight="700" class="font-mono">LIVE</text>
+        <text x="50" y="21" fill="#E2E8F0" font-size="12" font-weight="500" class="font-sans">unstocks.vercel.app</text>
+      </g>
+
+      <!-- Metric 2: Tests -->
+      <g transform="translate(192, 0)">
+        <rect width="168" height="34" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+        <circle cx="16" cy="17" r="3.5" fill="#10B981"/>
+        <text x="28" y="21" fill="#E2E8F0" font-size="12" font-weight="500" class="font-mono">112+ Passing Tests</text>
+      </g>
+
+      <!-- Metric 3: Stack Core -->
+      <g transform="translate(372, 0)">
+        <rect width="210" height="34" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+        <text x="14" y="21" fill="#F59E0B" font-size="12" font-weight="700" class="font-mono">CORE</text>
+        <text x="56" y="21" fill="#E2E8F0" font-size="12" font-weight="500" class="font-sans">Next.js 15 • React 19 • TS</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Geometric Architectural Graphic -->
+  <g transform="translate(860, 48)">
+    <!-- Circuit Lines -->
+    <path d="M 0 120 L 60 120 L 100 70 L 220 70" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.6"/>
+    <path d="M 20 220 L 80 220 L 120 180 L 220 180" fill="none" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.5"/>
+
+    <!-- Layer 3 (Top): Application & Studio -->
+    <g transform="translate(100, 30)">
+      <!-- Isometric Rhombus Top -->
+      <polygon points="60,0 120,30 60,60 0,30" fill="url(#iso-top)" stroke="#60A5FA" stroke-width="1.2"/>
+      <!-- Left side -->
+      <polygon points="0,30 60,60 60,82 0,52" fill="url(#iso-left)" stroke="#3B82F6" stroke-width="1.2"/>
+      <!-- Right side -->
+      <polygon points="60,60 120,30 120,52 60,82" fill="url(#iso-right)" stroke="#D97706" stroke-width="1.2"/>
+      <text x="60" y="34" text-anchor="middle" fill="#F8FAFC" font-size="11" font-weight="700" class="font-mono">APP LAYER</text>
+    </g>
+
+    <!-- Layer 2 (Middle): Decoupled Engine Modules -->
+    <g transform="translate(100, 95)">
+      <polygon points="60,0 120,30 60,60 0,30" fill="url(#iso-top)" stroke="#3B82F6" stroke-width="1.2" opacity="0.9"/>
+      <polygon points="0,30 60,60 60,82 0,52" fill="url(#iso-left)" stroke="#2563EB" stroke-width="1.2"/>
+      <polygon points="60,60 120,30 120,52 60,82" fill="url(#iso-right)" stroke="#D97706" stroke-width="1.2"/>
+      <text x="60" y="34" text-anchor="middle" fill="#93C5FD" font-size="11" font-weight="700" class="font-mono">12 MODULES</text>
+    </g>
+
+    <!-- Layer 1 (Base): Protocols, Storage & PostgreSQL -->
+    <g transform="translate(100, 160)">
+      <polygon points="60,0 120,30 60,60 0,30" fill="url(#iso-top)" stroke="#D97706" stroke-width="1.2" opacity="0.8"/>
+      <polygon points="0,30 60,60 60,82 0,52" fill="url(#iso-left)" stroke="#1D4ED8" stroke-width="1.2"/>
+      <polygon points="60,60 120,30 120,52 60,82" fill="url(#iso-right)" stroke="#B45309" stroke-width="1.2"/>
+      <text x="60" y="34" text-anchor="middle" fill="#FCD34D" font-size="11" font-weight="700" class="font-mono">DATA &amp; PROTOCOL</text>
+    </g>
+
+    <!-- System Pulse Nodes -->
+    <circle cx="160" cy="18" r="3.5" fill="#60A5FA"/>
+    <circle cx="220" cy="70" r="3.5" fill="#3B82F6"/>
+    <circle cx="220" cy="180" r="3.5" fill="#F59E0B"/>
+    <text x="140" y="258" fill="#64748B" font-size="11" font-weight="600" class="font-mono" letter-spacing="0.5">LINDY ARCHITECTURE</text>
+  </g>
+</svg>

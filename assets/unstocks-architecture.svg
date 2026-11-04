@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#090E1A"/>
+    </linearGradient>
+    <linearGradient id="mod-active" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="mod-amber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#78350F"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: "JetBrains Mono", "Fira Code", monospace; }
+  </style>
+
+  <!-- Container -->
+  <rect width="960" height="280" rx="12" fill="url(#card-bg)" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Top Header Bar -->
+  <g transform="translate(32, 28)">
+    <text x="0" y="0" fill="#60A5FA" font-size="12" font-weight="700" letter-spacing="1.5" class="font-mono">FLAGSHIP ARCHITECTURE • DECOUPLED DOMAIN PATTERN</text>
+    <text x="0" y="24" fill="#F8FAFC" font-size="20" font-weight="700" class="font-sans">Unstocks Platform Engine &amp; Studio Architecture</text>
+    <text x="560" y="24" fill="#10B981" font-size="12" font-weight="600" class="font-mono">● 112 PASSED TESTS (VITEST 3.0)</text>
+  </g>
+
+  <!-- Flow Pillars -->
+  <!-- Pillar 1: Thin Controllers -->
+  <g transform="translate(32, 90)">
+    <rect width="260" height="150" rx="8" fill="#111827" stroke="#1F2937" stroke-width="1.2"/>
+    <rect x="0" y="0" width="260" height="28" rx="8" fill="#1E293B"/>
+    <text x="14" y="19" fill="#93C5FD" font-size="11" font-weight="700" class="font-mono">01 // PRESENTATION &amp; ROUTES</text>
+    
+    <text x="14" y="52" fill="#E2E8F0" font-size="13" font-weight="600" class="font-sans">Next.js 15 App Router</text>
+    <text x="14" y="70" fill="#94A3B8" font-size="11" class="font-sans">• Zero database queries in controllers</text>
+    <text x="14" y="88" fill="#94A3B8" font-size="11" class="font-sans">• Strictly typed Server Actions</text>
+    <text x="14" y="106" fill="#94A3B8" font-size="11" class="font-sans">• In-browser WEBP canvas cropper</text>
+    <text x="14" y="124" fill="#94A3B8" font-size="11" class="font-sans">• Session-stable shuffle algorithm</text>
+  </g>
+
+  <!-- Arrow 1 -> 2 -->
+  <g transform="translate(304, 155)">
+    <line x1="0" y1="0" x2="24" y2="0" stroke="#3B82F6" stroke-width="2" stroke-dasharray="3,3"/>
+    <polygon points="24,-4 32,0 24,4" fill="#3B82F6"/>
+  </g>
+
+  <!-- Pillar 2: 12 Domain Modules -->
+  <g transform="translate(348, 90)">
+    <rect width="270" height="150" rx="8" fill="#111827" stroke="#2563EB" stroke-width="1.2"/>
+    <rect x="0" y="0" width="270" height="28" rx="8" fill="url(#mod-active)"/>
+    <text x="14" y="19" fill="#BFDBFE" font-size="11" font-weight="700" class="font-mono">02 // 12 DOMAIN MODULES</text>
+
+    <text x="14" y="52" fill="#E2E8F0" font-size="13" font-weight="600" class="font-sans">Business Logic Isolation</text>
+    <text x="14" y="70" fill="#94A3B8" font-size="11" class="font-sans">• Service, Rules, Queries pattern</text>
+    <text x="14" y="88" fill="#94A3B8" font-size="11" class="font-sans">• SSRF-hardened deliverable scanner</text>
+    <text x="14" y="106" fill="#94A3B8" font-size="11" class="font-sans">• Magic-byte binary verification</text>
+    <text x="14" y="124" fill="#94A3B8" font-size="11" class="font-sans">• Zero timestamp leakage in client DTOs</text>
+  </g>
+
+  <!-- Arrow 2 -> 3 -->
+  <g transform="translate(630, 155)">
+    <line x1="0" y1="0" x2="24" y2="0" stroke="#F59E0B" stroke-width="2" stroke-dasharray="3,3"/>
+    <polygon points="24,-4 32,0 24,4" fill="#F59E0B"/>
+  </g>
+
+  <!-- Pillar 3: Data & Ingestion -->
+  <g transform="translate(666, 90)">
+    <rect width="260" height="150" rx="8" fill="#111827" stroke="#1F2937" stroke-width="1.2"/>
+    <rect x="0" y="0" width="260" height="28" rx="8" fill="url(#mod-amber)"/>
+    <text x="14" y="19" fill="#FDE68A" font-size="11" font-weight="700" class="font-mono">03 // PERSISTENCE &amp; CRON</text>
+
+    <text x="14" y="52" fill="#E2E8F0" font-size="13" font-weight="600" class="font-sans">PostgreSQL + Prisma 6</text>
+    <text x="14" y="70" fill="#94A3B8" font-size="11" class="font-sans">• pg_trgm trigram search + GIN index</text>
+    <text x="14" y="88" fill="#94A3B8" font-size="11" class="font-sans">• 14-day deletion grace period &amp; purge</text>
+    <text x="14" y="106" fill="#94A3B8" font-size="11" class="font-sans">• Supabase SSR OAuth session hooks</text>
+    <text x="14" y="124" fill="#94A3B8" font-size="11" class="font-sans">• Audit trail &amp; heartbeat fencing</text>
+  </g>
+</svg>
