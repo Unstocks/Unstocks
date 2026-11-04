@@ -17,9 +17,9 @@
 
 ### 🏛️ The Architectural Manifesto
 
-> *"99% of ideas on developer forums suffer from **Superficiality Syndrome**: vague concepts with zero execution architecture, or thin wrappers around third-party APIs that evaporate with the next platform release. Ideas without an execution plan are daydreams.*  
-> 
-> *I design software engineered for **Lindy durability** — grounded in open protocols, strictly typed modular boundaries, local-first operational guarantees, and zero-compromise automated testing."*
+Most software ideas sound great on paper, but very few make it to reality. Many are just basic concepts or wrappers around existing tools that break when those tools change.
+
+I believe in building software that lasts — with clean architecture, reliable technology, modular code and proper testing. Not just something that works today, but something that keeps working tomorrow.
 
 ```
 Identity      :: Sanjayakumar Hombaradi
