@@ -87,18 +87,6 @@ Systems Lab   :: https://github.com/Unstocks/clg-os
 
 ---
 
-### 4. Uniconnect — Campus Social & Collaborative Idea Network
-> A distributed student professional platform combining a high-performance virtualized campus feed with **Project Adda** (peer idea board).
-
-* **Codebase Repository:** [`Unstocks/Uniconnect-01`](https://github.com/Unstocks/Uniconnect-01)
-* **Stack:** Next.js 15.5 App Router, React 19, NestJS 11 backend service, Prisma 7, Supabase SSR, TanStack Virtual.
-* **Key Architectural Primitives:**
-  * **Distributed Frontend & Micro-Backend:** High-throughput Next.js 15 UI consuming a modular NestJS 11 REST API.
-  * **Virtualized Campus Feed:** Zero-jank infinite scrolling powered by TanStack Virtual to handle high-density media feeds on mobile devices.
-  * **Project Adda Module:** Structured student collaboration workflows for forming hackathon teams and publishing technical project concepts.
-
----
-
 ## 🛠️ Verified Technology Ecosystem
 
 <p align="center">
@@ -118,7 +106,6 @@ Systems Lab   :: https://github.com/Unstocks/clg-os
 └───────────────────────────┴───────────────────────────┴───────────────────────────┘
 ```
 
----
 
 ## 📐 The 5 Lindy Durability Gates
 
