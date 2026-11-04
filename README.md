@@ -7,9 +7,9 @@
 <div align="center">
 
 [![Live Production](https://img.shields.io/badge/Production-unstocks.vercel.app-2563EB?style=flat-square&logo=vercel&logoColor=white)](https://unstocks.vercel.app)
-[![Tests Passing](https://img.shields.io/badge/Tests-112%2B%20Passing%20(Vitest)-10B981?style=flat-square&logo=vitest&logoColor=white)](https://github.com/Unstocks/unstocks-platform)
+[![Tests Passing](https://img.shields.io/badge/Tests-112%2B%20Passing%20(Vitest)-10B981?style=flat-square&logo=vitest&logoColor=white)](https://github.com/Unstocks/unstocks-app)
 [![Stack](https://img.shields.io/badge/Stack-Next.js%2015%20%E2%80%A2%20React%2019%20%E2%80%A2%20TypeScript-0F172A?style=flat-square&logo=typescript&logoColor=white)](https://github.com/Unstocks)
-[![Architecture](https://img.shields.io/badge/Design-Decoupled%20Modular%20Engine-F59E0B?style=flat-square)](https://github.com/Unstocks/unstocks-platform)
+[![Architecture](https://img.shields.io/badge/Design-Decoupled%20Modular%20Engine-F59E0B?style=flat-square)](https://github.com/Unstocks/unstocks-app)
 
 </div>
 
@@ -43,7 +43,7 @@ Live Flagship :: https://unstocks.vercel.app
 </p>
 
 * **Production URL:** [https://unstocks.vercel.app](https://unstocks.vercel.app)
-* **Codebase Repository:** [`Unstocks/unstocks-platform`](https://github.com/Unstocks/unstocks-platform)
+* **Codebase Repository:** [`Unstocks/unstocks-app`](https://github.com/Unstocks/unstocks-app)
 * **Stack:** Next.js 15.2 (App Router), React 19, TypeScript 5.8, Prisma 6.4, Supabase (PostgreSQL), Vitest 3.0, Tailwind CSS.
 * **Key Architectural Primitives:**
   * **12 Decoupled Modules:** Strict domain isolation (`feed`, `ideas`, `marketplace`, `moderation`, `accounts`, `auth`, `suggestions`, etc.) ensuring route handlers perform zero database queries directly.
